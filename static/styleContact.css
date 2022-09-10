@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.container{
+    min-height: 81vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput {
+    width: 40%;
+    padding: 6px;
+    margin: 8px;
+    border-radius: 21px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+.btn{
+    padding: 11px 14px;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 14px auto;
+    color: white;
+}
